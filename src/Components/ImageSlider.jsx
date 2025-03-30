@@ -4,10 +4,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css"; // Missing theme CSS
 
 const images = [
-  { src: "Images/Hero1.webp", title: "Image 1" },
-  { src: "Images/Hero1.webp", title: "Image 2" },
-  { src: "Images/Hero1.webp", title: "Image 3" },
-  { src: "Images/Hero1.webp", title: "Image 4" },
+  { src: "Images/Under499.jpg", title: "Stationary" },
+  { src: "Images/Standees.webp", title: "Standees" },
+  { src: "Images/Certificates.webp", title: "Certificates" },
+  { src: "Images/StandUp.webp", title: "Standup Pouches" },
+  { src: "Images/Banner.webp", title: "Fast Delivery" },
+
 ];
 
 const ImageSlider = () => {
@@ -15,7 +17,7 @@ const ImageSlider = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
@@ -36,7 +38,7 @@ const ImageSlider = () => {
   };
 
   return (
-    <div className="w-full max-w-7xl mx-auto p-4">
+    <div className="w-full max-w-8xl mx-auto p-4 bg-[#662D91] px-8 h-auto py-8 mt-10">
       <Slider {...settings}>
         {images.map((img, index) => (
           <div key={index} className="p-2 text-center">
@@ -45,7 +47,7 @@ const ImageSlider = () => {
               alt={img.title}
               className="w-full h-48 object-cover rounded-lg shadow-lg"
             />
-            <p className="mt-2 text-lg font-semibold">{img.title}</p>
+            <p className="mt-2 text-lg text-white">{img.title}</p>
           </div>
         ))}
       </Slider>
