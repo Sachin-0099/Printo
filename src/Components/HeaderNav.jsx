@@ -19,8 +19,8 @@ const HeaderNav = () => {
           
 
             {/* Logo */}
-            <div className="flex justify-center flex-grow lg:flex-grow-0">
-              <div className="w-36 sm:w-40 h-20 sm:h-22 mr-6">
+            <div className="flex  flex-grow lg:flex-grow-0">
+              <div className="w-36 sm:w-36 h-20 sm:h-22 mr-6">
                 <img 
                   src="/Images/Printo.webp" 
                   alt="Logo" 
