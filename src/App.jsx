@@ -9,6 +9,10 @@ import MainImg from "./Components/MainImg";
 import GridImage from "./Components/GridImage";
 import Categories from "./Components/Categories";
 import Footer from "./Components/Footer"
+import About from "./Components/About";
+import Body from "./Components/Body";
+import InfoSection from "./Components/InfoSection";
+import Journal from "./Components/Journal";
 const images = [
   { src: "Images/Pens.webp", title: "Pens" },
   { src: "Images/pencils.webp", title: "Pencils" },
@@ -60,6 +64,8 @@ function App() {
           "Images/Under499.jpg",
           "Images/Under199.jpg",
           "Images/Under299.jpg",
+          "Images/Hero2.webp",
+          'Images/Her3.webp',
       
          
          
@@ -83,7 +89,12 @@ function App() {
       <ImageGrid title="Dive Into A World of Creativity With Our Artistry & Crafting Wonders" images={images2} />
       <GridImage/>
       <ImageGrid title="New Launches  Artistry & Crafting Wonders" images={images2} />
+      <Body/>
+      <Journal/>
+      <InfoSection/>
+      <About/>
       <Footer/>
+      
 
 
     </div>

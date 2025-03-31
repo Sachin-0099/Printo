@@ -38,7 +38,7 @@ const ImageSlider = () => {
   };
 
   return (
-    <div className="w-full max-w-8xl mx-auto p-4 bg-[#662D91] px-8 h-auto py-8 mt-10">
+    <div className="w-full max-w-8xl mx-auto p-4 bg-[#662D91] px-8 h-auto py-8 mt-15">
       <Slider {...settings}>
         {images.map((img, index) => (
           <div key={index} className="p-2 text-center">

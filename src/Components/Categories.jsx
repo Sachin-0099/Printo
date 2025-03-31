@@ -46,7 +46,7 @@ const Categories = () => {
   };
 
   return (
-    <div className="w-full flex justify-center p-4 mt-10 mb-20">
+    <div className="w-full flex justify-center p-4 mt-15 mb-20">
       <div className="w-full max-w-5xl">
         <Slider {...settings}>
           {images.map((img, index) => (
