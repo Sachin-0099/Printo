@@ -15,7 +15,7 @@ const GridImage = () => {
           <img
             src={item.src}
             alt={item.title}
-            className="w-[618px] h-[215px] object-cover  shadow-md mt-10"
+            className="w-[618px] h-[215px] object-cover  shadow-md mt-10 px-4"
           />
           <p className="absolute bottom-2 left-4 bg-black bg-opacity-50 text-white px-3 py-1 rounded-md">
             {item.title}
