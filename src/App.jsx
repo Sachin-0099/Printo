@@ -13,6 +13,7 @@ import About from "./Components/About";
 import Body from "./Components/Body";
 import InfoSection from "./Components/InfoSection";
 import Journal from "./Components/Journal";
+import CategorySlider from "./Components/Categories";
 const images = [
   { src: "Images/Pens.webp", title: "Pens" },
   { src: "Images/pencils.webp", title: "Pencils" },
@@ -65,7 +66,7 @@ function App() {
           "Images/Under199.jpg",
           "Images/Under299.jpg",
           "Images/Hero2.webp",
-          'Images/Her3.webp',
+          'Images/Hero3.webp',
       
          
          
@@ -81,7 +82,7 @@ function App() {
       {/* <ImageMap/> */}
       <ImageGrid title="Elevate Your Workspace Efficiency - Office Essentials" images={images1} />
       <GridImage/>
-      <Categories/>
+      <CategorySlider/>
 
      
    
