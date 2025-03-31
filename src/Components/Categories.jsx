@@ -39,7 +39,7 @@ const CategorySlider = () => {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 3,
           arrows: false,
           dots: true,
         },
